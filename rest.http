@@ -1,0 +1,16 @@
+POST http://localhost:3001/run
+Content-Type: application/json
+x-api-key: Tarjetazo@40
+
+{
+  "url": "https://rumble.com/v7fsmee-4-seven-live-tv.html",
+  "amount": "77"
+}
+
+### Stop Go application
+POST http://localhost:3001/run/stop
+Content-Type: application/json
+x-api-key: Tarjetazo@40
+
+{
+}
