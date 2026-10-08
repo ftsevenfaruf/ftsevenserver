@@ -1,14 +1,15 @@
-POST http://localhost:3001/run
+POST 
+ttps://ftsevenserver-1.onrender.com/run
 Content-Type: application/json
 x-api-key: Tarjetazo@40
 
 {
-  "url": "https://rumble.com/v7fsmee-4-seven-live-tv.html",
-  "amount": "77"
+  "url": "https://rumble.com/v7fuh3c-4-seven-live-tv.html",
+  "amount": "377"
 }
 
 ### Stop Go application
-POST http://localhost:3001/run/stop
+POST http://ftsevenserver-1.onrender.com/run/stop
 Content-Type: application/json
 x-api-key: Tarjetazo@40
 
